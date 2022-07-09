@@ -86,7 +86,7 @@ img {
   min-width: 208px;
 }
 
-.customer-reviews_photo {
+.customer-reviews__photo {
   width: 85px;
   height: 85px;
   border-radius: 44px;
@@ -94,38 +94,41 @@ img {
   margin-bottom: 32px;
 }
 
-.customer-reviews_reviews {
+.customer-reviews__reviews {
   position: relative;
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
   font-size: 12px;
   line-height: 255%;
   text-align: center;
+  margin-top: 20%;
   z-index: 2;
 }
 
-.customer-reviews_reviews-container {
+.customer-reviews__reviews-container {
   position: relative;
+  display: flex;
+  align-items: center;
   width: 80%;
-  height: 308px;
+  height: 80%;
   background-color: #FAFAFA;
-  margin-bottom: 16px;
+  margin-bottom: 36px;
 }
 
-.customer-reviews_rows {
+.customer-reviews__rows {
   position: absolute;
   top: 74px;
-  left: 50px;
-  width: 180px;
-  height: 217px;
-  background-image: repeating-linear-gradient(180deg, #E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 13%);
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  background-image: repeating-linear-gradient(#E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 15%);
   margin-right: auto;
   margin-left: auto;
 }
 
-.customer-reviews_rows::before {
+.customer-reviews__rows::before {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -133,5 +136,47 @@ img {
   font-size: 100px;
   line-height: 0;
   color: #E1E1E1;
+}
+
+.customer-reviews__name-container::before {
+  content: "...";
+  bottom: 10px;
+  font-size: 4px;
+  line-height: 0;
+  color: #C7133E;
+}
+
+.customer-reviews__name {
+  font-size: 14px;
+  line-height: calc(26 / 14 * 100%);
+}
+
+.swiper {
+  width: 90%;
+  height: 90%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-image: url(/images/home.svg);
+  background-size: cover;
+  border-radius: unset;
+  width: 12px;
+  height: 12px;
 }
 /*# sourceMappingURL=main.css.map */
