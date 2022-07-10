@@ -32,9 +32,14 @@
     display: flex;
     align-items: center;
     width: 80%;
-    height: 80%;
+    min-height: 308px;
     background-color: #FAFAFA;
     margin-bottom: 16px;
+    border-radius: 2px;
+    transition: box-shadow 250ms linear;
+    &:hover {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
 }
 
 .customer-reviews__rows{
