@@ -103,7 +103,7 @@ img {
   line-height: 255%;
   text-align: center;
   z-index: 2;
-  padding: 50px 0px;
+  padding: 50px 60px;
 }
 
 .customer-reviews__reviews-container {
@@ -112,7 +112,6 @@ img {
   align-items: center;
   background-color: #FAFAFA;
   margin-bottom: 16px;
-  border-radius: 2px;
   transition: box-shadow 250ms linear;
 }
 
@@ -167,8 +166,7 @@ img {
     width: auto;
   }
   .customer-reviews__rows {
-    height: 50%;
-    background-image: repeating-linear-gradient(#E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 35%);
+    background-image: repeating-linear-gradient(#E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 20%);
   }
 }
 
@@ -194,7 +192,7 @@ img {
   }
   .customer-reviews__reviews {
     font-size: 16px;
-    padding: 45px 140px 30px 140px;
+    padding: 45px 140px 50px 140px;
   }
   .customer-reviews__rows {
     background-image: repeating-linear-gradient(#E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 65%);

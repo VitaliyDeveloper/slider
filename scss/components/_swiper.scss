@@ -23,7 +23,7 @@
     line-height: 255%;
     text-align: center;
     z-index: 2;
-    padding: 50px 0px;
+    padding: 50px 60px;
     
 }
 
@@ -33,7 +33,6 @@
     align-items: center;
     background-color: #FAFAFA;
     margin-bottom: 16px;
-    border-radius: 2px;
     transition: box-shadow 250ms linear;
     &:hover {
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -62,7 +61,6 @@
         }
 }
 
-
 .customer-reviews__dots {
     display: block;
     bottom: 10px;
@@ -89,8 +87,7 @@
     }
 
     .customer-reviews__rows {
-        height: 50%;
-        background-image: repeating-linear-gradient(#E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 35%);
+        background-image: repeating-linear-gradient(#E1E1E1 0, #E1E1E1 1px, #FAFAFA 0, #FAFAFA 20%);
     }
 }
 
@@ -118,7 +115,7 @@
     
     .customer-reviews__reviews {
         font-size: 16px;
-        padding: 45px 140px 30px 140px;
+        padding: 45px 140px 50px 140px;
     }
 
     .customer-reviews__rows {
